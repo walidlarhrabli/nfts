@@ -8,7 +8,7 @@ os.makedirs('output', exist_ok=True)
 backgrounds_folder = r'C:\Users\HP\Downloads\pepustars_collection\layers/1_backgrounds/common'
 characters_folder = r'C:\Users\HP\Downloads\pepustars_collection\layers/2_bodies/standard'
 
-print("🚀 Génération Multiple...\n")
+print("🚀 Génération Mult k iple...\n")
 
 # Lister tous les backgrounds
 backgrounds = [f for f in os.listdir(backgrounds_folder) if f.endswith('.png')]
