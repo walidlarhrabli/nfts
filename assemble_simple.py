@@ -42,7 +42,7 @@ for char_file in characters:
     if character.size != (1000, 1000):
         character = character.resize((1000, 1000))
     
-    # Pour chaque background
+    # Pour chaque backgrouee
     for bg_file in backgrounds:
         bg_name = bg_file.replace('.png', '')
         bg_path = os.path.join(backgrounds_folder, bg_file)
@@ -50,7 +50,7 @@ for char_file in characters:
         # Charger background
         background = Image.open(bg_path).convert('RGBA')
         
-        # Redimensionner si nécessaire
+        # Redimensionner si nécessair
         if background.size != (1000, 1000):
             background = background.resize((1000, 1000))
         
